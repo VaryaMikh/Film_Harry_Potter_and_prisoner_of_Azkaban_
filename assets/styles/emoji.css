@@ -1,0 +1,48 @@
+.emojy {
+	height: 70px;
+	width: 130px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	font-family: 'Lato', sans-serif;
+}
+
+.emogy.-facebook, .emogy.-brainly {
+	height: 30px;
+	width: 30px;
+	border: 0.5px solid black;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: 0.5s;
+}
+
+.emogy.-facebook:hover {
+	background-color: red;
+	color: white;
+	border: 0.5px solid red;
+}
+
+.emogy.-brainly:hover {
+	background-color: #61d99e;
+	color: white;
+	border: 0.5px solid #61d99e;
+}
+
+.emogy.-twitter {
+	height: 30px;
+	width: 30px;
+	background-image: url("../img/tw1.jpg");
+	background-size: contain;
+	border: 0.5px solid black;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	transition: 0.5s;
+}
+
+.emogy.-twitter:hover {
+	background-image: url("../img/tw2.png");
+	border: 0.5px solid #4dc8e8;
+}

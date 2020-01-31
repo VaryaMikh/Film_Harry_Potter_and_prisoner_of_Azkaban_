@@ -1,0 +1,45 @@
+body, h1, h2, h3, h4, p, ul, ol, li {
+	margin: 0;
+	font-family: 'Crimson Text', sans-serif;
+	padding: 0;
+}
+
+body {
+	min-height: 100vh;
+	width: 1000px;
+	margin: 0 auto;
+	background-image: url("../img/bg.jpg");
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.ticket {
+	height: 100px;
+	width: 100px;
+	background-color: white;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.ticket__body {
+	position: absolute;
+	width: 20px;
+	height: 40px;
+	transform: rotate(45deg);
+	border: 1px solid black;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.ticket__serif {
+	position: absolute;
+	width: 19px;
+	height: 1px;
+	background-color: black;
+	top: 7px;
+}

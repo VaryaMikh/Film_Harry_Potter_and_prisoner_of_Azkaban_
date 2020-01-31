@@ -1,0 +1,31 @@
+.rev__rev.-top {
+	margin-top: 20px;
+	border: 1.5px solid black;
+	padding: 10px;
+}
+
+.rev__triangle {
+	width: 0;
+	height: 0;
+	border-top: 15px solid black;
+	border-left: 0px solid transparent;
+	border-right: 20px solid transparent;
+	margin-left: 20px;
+	margin-bottom: 10px;
+}
+
+.rev__rev.-bot {
+	margin-top: 20px;
+	border-left: 3px solid red;
+	padding-left: 10px;
+	margin-bottom: 10px;
+}
+
+.rev__avtor {
+	margin-bottom: 5px;
+	font-family: 'PT Mono', monospace;
+}
+
+.rev__avtor_where {
+	font-family: 'PT Mono', monospace;
+}

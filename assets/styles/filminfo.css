@@ -1,0 +1,27 @@
+.details__title {
+	margin: 10px 0;
+}
+
+.details__details {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+
+.question {
+	margin-bottom: 5px;
+}
+
+.answer {
+	margin-bottom: 5px;
+}
+
+.answer.-link {
+	color: #00d4ff;
+	text-decoration: none;
+}
+
+.actor__title, .actor {
+	margin-bottom: 15px;
+}
+

@@ -1,0 +1,31 @@
+.place {
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-bottom: 1.5px solid black;
+}
+
+.place__view {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.time {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.time__value {
+	margin-left: 20px;
+	font-family: 'PT Mono', monospace;
+}
+
+.view__money {
+	margin-left: 20px;
+}

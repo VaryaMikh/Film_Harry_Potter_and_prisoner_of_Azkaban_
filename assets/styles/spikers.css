@@ -1,0 +1,23 @@
+.spikers {
+	border: 3px solid black;
+	padding: 10px;
+}
+
+.spiker {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.spiker__img {
+	height: 120px;
+	width: 120px;
+	border-radius: 50%;
+	margin-right: 15px;
+	margin-top: 10px;
+}
+
+.spiker__surname {
+	margin-top: 5px;
+	margin-bottom: 15px;
+}

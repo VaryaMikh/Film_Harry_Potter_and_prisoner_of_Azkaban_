@@ -25,6 +25,7 @@
 .press {
 	display: flex;
 	flex-flow: column;
+	width: 50%;
 }
 
 .press__title {
